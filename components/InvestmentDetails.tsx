@@ -46,18 +46,7 @@ export const InvestmentDetails = (): React.ReactNode => {
           {/* Payment Options */}
           <div className="bg-slate-800 p-8 rounded-lg border border-slate-700">
             <h3 className="text-2xl font-serif font-bold text-white">How to Invest</h3>
-            <p className="mt-4 text-slate-400">Choose your preferred method to invest. For all online payments, please specify "WriteOn, Corp Investment" in the memo.</p>
-            <div className="mt-6 space-y-4">
-              <a href="#" className="flex items-center justify-center w-full bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors">
-                Invest with Stripe <ExternalLinkIcon className="ml-2 h-5 w-5" />
-              </a>
-              <a href="#" className="flex items-center justify-center w-full bg-cyan-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-cyan-600 transition-colors">
-                Invest with PayPal <ExternalLinkIcon className="ml-2 h-5 w-5" />
-              </a>
-              <a href="#" className="flex items-center justify-center w-full bg-blue-400 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-500 transition-colors">
-                Invest with Venmo <ExternalLinkIcon className="ml-2 h-5 w-5" />
-              </a>
-            </div>
+            <p className="mt-4 text-slate-400">Please use the check payment method below to invest.</p>
             <div className="mt-6 border-t border-slate-700 pt-6">
               <h4 className="font-semibold text-white">Invest by Check</h4>
               <p className="mt-2 text-slate-400">Please make checks payable to "WriteOn, Corporation" and mail to:</p>
